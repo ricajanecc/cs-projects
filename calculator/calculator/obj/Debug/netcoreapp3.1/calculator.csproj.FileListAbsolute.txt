@@ -1,0 +1,14 @@
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.exe
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.deps.json
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.runtimeconfig.json
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.runtimeconfig.dev.json
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.dll
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\bin\Debug\netcoreapp3.1\calculator.pdb
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.csproj.AssemblyReference.cache
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.AssemblyInfoInputs.cache
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.AssemblyInfo.cs
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.csproj.CoreCompileInputs.cache
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.dll
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.pdb
+C:\Users\ricaj\projects\practice-projects\Systemutvecklare .NET\programmering-grund\calculator\calculator\calculator\obj\Debug\netcoreapp3.1\calculator.genruntimeconfig.cache
