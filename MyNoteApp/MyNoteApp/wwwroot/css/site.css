@@ -1,0 +1,257 @@
+
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "area";
+}
+
+body > div:first-child {
+    grid-area: area;
+}
+
+.fieldset {
+    border: 5px solid paleturquoise;
+    border-radius: 10px;
+    margin: 200px;
+    padding: 40px;
+}
+
+.fieldset > legend {
+    float: none;
+    font-size: 40px;
+    width:unset;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "text text" ". .";
+    place-items: center;
+    gap: 10px;
+}
+
+.login-container {
+    justify-self: right; 
+}
+
+.register-container {
+    justify-self: left;
+}
+
+.welcome-container {
+    grid-area: text;
+}
+
+.home-buttons {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+    border-style:outset;
+    padding: 10px;
+}
+
+.home-buttons:active {
+    border-style:inset;
+}
+
+/*Forms*/
+.form-container, .regForm-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 5px solid paleturquoise;
+    border-radius: 10px;
+}
+
+form {
+    display: grid; 
+    gap: 10px;
+}
+
+.log-title, .reg-title {
+    text-align: center;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-color: paleturquoise;
+    border-radius: 7px
+}
+
+.lrButton-container {
+    display: grid;
+    place-items: center;
+}
+
+.lrButton {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 7px;
+    border-color: paleturquoise;
+    height: 40px;
+    width: 70px;
+}
+
+.back-container {
+    display: grid;
+    place-items: center;
+}
+
+.back-link {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.back-link:hover {
+    color: paleturquoise;
+}
+
+.back-link:active {
+    color: paleturquoise;
+}
+
+/*Note Page*/
+
+.note-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    color: black;
+    border: 5px solid paleturquoise;
+    border-radius: 10px;
+    margin: 20px;
+    height: 95vh;
+    width: 95vw;
+}
+
+.note-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 5px solid paleturquoise;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.right-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 7px; 
+}
+
+.hello {
+    justify-self: right;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    background-color: white;
+}
+
+.note-write {
+    border-left: 5px solid paleturquoise;
+    padding: 20px;
+    grid-template-rows: auto 1fr auto auto;
+}
+
+.note-history {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    align-items: start; 
+}
+
+.history-list{
+    display:grid;
+}
+
+.addButton {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+    border-style: outset;
+    padding: 10px;
+    place-self: center; 
+}
+
+.addButton:active {
+    border-style:inset;
+}
+
+.button-history {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+    border-style: outset;
+    padding: 10px;
+}
+
+.button-history:active {
+    border-style: inset;
+}
+
+.searchButton {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+    border-style: outset;
+}
+
+.searchButton:active {
+    border-style:inset;
+}
+
+.saveButton, .deleteButton {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+    border-style: outset;
+    padding: 10px;
+}
+
+.saveButton:active, .deleteButton:active {
+        border-style: inset;
+}
+
+input[type=search] {
+    background-color: white;
+    border: 2px solid paleturquoise;
+    border-radius: 7px;
+}
+
+.CodeMirror {
+    background-color: white !important;
+    border: 2px solid paleturquoise !important;
+}
+.editor-toolbar {
+    background-color: white !important;
+    border-top: 2px solid paleturquoise !important;
+    border-left: 2px solid paleturquoise !important;
+    border-right: 2px solid paleturquoise !important;
+}
+
+.logOut {
+    text-decoration: none;
+    color: dimgray;
+    place-self: center;
+}
+
+.logOut:hover {
+    color: paleturquoise;
+}
+
+/*Error message*/ 
+
+.error-message {
+    color: red;
+}

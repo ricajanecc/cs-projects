@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<div>
+    <div class="regForm-container">
+        <div class="reg-title">
+            <h1>Register</h1>
+        </div>
+
+        <form action="/Register/Register" method="POST">
+
+           <div class="fName-container">
+               <label>First name</label>
+               <input type="text" name="firstName" placeholder="Required"/>
+           </div>
+
+           <div class="lName-container">
+               <label>Last name</label>
+               <input type="text" name="lastName" />
+           </div>
+
+           <div class="username-container">
+               <label>Username</label>
+               <input type="text" name="userName" placeholder="Required" />
+           </div>
+
+           <div class="password-container">
+               <label>Password</label>
+               <input type="password" name="password" placeholder="Required" />
+           </div>
+
+           <div class="password-container">
+               <label>Confirm Password</label>
+               <input type="password" name="confirmPassword" placeholder="Required" />
+           </div>
+
+           <p class="error-message">@ViewData["Error"]</p>
+
+           <div class="lrButton-container">
+                <input type="submit" class="lrButton" value="Register" />
+            </div>
+
+            <div class="back-container">
+                <a href="/" class="back-link">←Back to home page</a>
+            </div>
+        </form>
+    </div>
+</div>

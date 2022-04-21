@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Note Page";
+}
+
+@section Scripts
+{
+        <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+        <script src="~/js/NotePage.js" asp-append-version="true"></script>
+}
+<div class="note-container">
+
+    <div class="note-header">
+        <div>
+            <input type="search" class="searchBox" />
+            <button class="searchButton">Search</button>
+        </div>
+
+        <div class="right-header"> 
+            <h3 class="hello">Hello, @ViewData["Name"]!</h3>
+            <a href="/LogIn/LogOut" class="logOut">Log out</a>
+        </div>
+       
+    </div>
+
+    <div class="dashboard">
+        <div class="note-history">
+           
+                <button class="addButton">Add a new note</button>
+
+                <div class="history-list">
+                   
+                </div>
+
+           
+        </div>
+        <iframe name="dummyframe" id="dummyframe" style="display:none;"></iframe>
+
+        <form class="note-write"  method="POST" target="dummyframe">
+            <div class="note-title">
+                <input type="text" name="title" placeholder="Write your title here..."/>
+            </div>
+
+            <div class="note-text">
+                <textarea id="note" name="text"></textarea>
+            </div>
+
+            <input type="hidden" name="id" />
+
+            <div class="saveButton-container">
+                <input type="submit" class="saveButton" value="Save" formaction="/NotePage/NoteWrite"/>
+            </div>
+
+            <div class="deleteButton-container">
+                <input type="submit" class="deleteButton" value="Delete" formaction="/NotePage/NoteDelete"/>
+            </div>
+        </form>
+    </div>
+
+
+
+</div>
+

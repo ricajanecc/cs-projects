@@ -1,0 +1,8 @@
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.csproj.AssemblyReference.cache
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.AssemblyInfoInputs.cache
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.AssemblyInfo.cs
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.csproj.CoreCompileInputs.cache
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.RazorAssemblyInfo.cache
+C:\Users\ricaj\source\repos\MyNoteApp\MyNoteApp\obj\Debug\net6.0-windows\MyNoteApp.RazorAssemblyInfo.cs
